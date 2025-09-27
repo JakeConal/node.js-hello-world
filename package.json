@@ -1,20 +1,20 @@
 {
-  "name": "node.js-hello-world",
+  "name": "nodejs-hello-world",
   "version": "1.0.0",
+  "description": "A simple Node.js Hello World app for deployment on Render",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
+  "keywords": [
+    "nodejs",
+    "hello-world",
+    "render"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JakeConal/node.js-hello-world.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JakeConal/node.js-hello-world/issues"
-  },
-  "homepage": "https://github.com/JakeConal/node.js-hello-world#readme",
-  "description": ""
+  }
 }
