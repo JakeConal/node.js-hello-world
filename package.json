@@ -1,20 +1,26 @@
 {
   "name": "nodejs-hello-world",
   "version": "1.0.0",
-  "description": "A simple Node.js Hello World app for deployment on Render",
+  "description": "A simple Node.js Hello World app for deployment on Netlify",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
   },
   "keywords": [
     "nodejs",
     "hello-world",
-    "render"
+    "netlify",
+    "serverless"
   ],
   "author": "Your Name",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JakeConal/node.js-hello-world.git"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
   }
 }
